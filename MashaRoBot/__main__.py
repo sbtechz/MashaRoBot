@@ -76,13 +76,13 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `Hey there! My name is Miss Dark - I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my news channel (http://t.me/Missdarksupport) to get information on all the latest updates.` 
+Join my news chhanel * @Missdarksupport * to get information on all the latest updates.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add me to your chat", url="t.me/Missdark_bot?startgroup=true"),
+            text="Add me to your chat 🌹 ", url="t.me/Missdark_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="masha_"),
